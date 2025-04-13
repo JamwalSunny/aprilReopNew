@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Command line test de7941c8-574d-49d6-9db4-1187ed3e85ee(failed)">
+    <classes>
+      <class name="org.testing.testScripts.TC7_watchLater1">
+        <methods>
+          <include name="watchToastMessage"/>
+          <include name="browserClose"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.TC7_watchLater1 -->
+      <class name="org.testing.testScripts.TC5_channelSubscribe">
+        <methods>
+          <include name="channelSubscribe"/>
+          <include name="browserClose"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.TC5_channelSubscribe -->
+    </classes>
+  </test> <!-- Command line test de7941c8-574d-49d6-9db4-1187ed3e85ee(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
