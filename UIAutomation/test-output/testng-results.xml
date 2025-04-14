@@ -1,25 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-13T09:01:18 IST" name="Default suite" finished-at="2025-04-13T09:01:29 IST" duration-ms="11457">
+  <suite started-at="2025-04-13T10:15:29 IST" name="Suite" finished-at="2025-04-13T10:17:59 IST" duration-ms="150481">
     <groups>
     </groups>
-    <test started-at="2025-04-13T09:01:18 IST" name="Default test" finished-at="2025-04-13T09:01:29 IST" duration-ms="11457">
-      <class name="org.testing.testScripts.TC1_loginYoutubeTrendingClick">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC1_loginYoutubeTrendingClick@6981f8f3]" started-at="2025-04-13T09:01:18 IST" name="browserLaunch" finished-at="2025-04-13T09:01:24 IST" duration-ms="5798" status="PASS">
+    <test started-at="2025-04-13T10:15:29 IST" name="Test" finished-at="2025-04-13T10:17:59 IST" duration-ms="150481">
+      <class name="org.testing.testScripts.TC4_likeLinkClick">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC4_likeLinkClick@43a09ce2]" started-at="2025-04-13T10:16:36 IST" name="browserLaunch" finished-at="2025-04-13T10:16:44 IST" duration-ms="7680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="testTrendingLink()[pri:0, instance:org.testing.testScripts.TC1_loginYoutubeTrendingClick@6981f8f3]" started-at="2025-04-13T09:01:24 IST" name="testTrendingLink" finished-at="2025-04-13T09:01:29 IST" duration-ms="5052" status="PASS">
+        <test-method signature="likeLinkClick()[pri:0, instance:org.testing.testScripts.TC4_likeLinkClick@43a09ce2]" started-at="2025-04-13T10:16:44 IST" name="likeLinkClick" finished-at="2025-04-13T10:17:02 IST" duration-ms="18338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- likeLinkClick -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC4_likeLinkClick@43a09ce2]" started-at="2025-04-13T10:17:02 IST" name="browserClose" finished-at="2025-04-13T10:17:03 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.testing.testScripts.TC4_likeLinkClick -->
+      <class name="org.testing.testScripts.TC1_loginYoutubeTrendingClick">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC1_loginYoutubeTrendingClick@6a4ccef7]" started-at="2025-04-13T10:15:29 IST" name="browserLaunch" finished-at="2025-04-13T10:15:43 IST" duration-ms="13952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testTrendingLink()[pri:0, instance:org.testing.testScripts.TC1_loginYoutubeTrendingClick@6a4ccef7]" started-at="2025-04-13T10:15:43 IST" name="testTrendingLink" finished-at="2025-04-13T10:15:56 IST" duration-ms="13541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTrendingLink -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC1_loginYoutubeTrendingClick@6981f8f3]" started-at="2025-04-13T09:01:29 IST" name="browserClose" finished-at="2025-04-13T09:01:29 IST" duration-ms="527" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC1_loginYoutubeTrendingClick@6a4ccef7]" started-at="2025-04-13T10:15:56 IST" name="browserClose" finished-at="2025-04-13T10:16:09 IST" duration-ms="12695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- org.testing.testScripts.TC1_loginYoutubeTrendingClick -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="org.testing.testScripts.TC2_YouTubeHomePageandHistoryIconclick">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC2_YouTubeHomePageandHistoryIconclick@7bc44ce8]" started-at="2025-04-13T10:16:09 IST" name="browserLaunch" finished-at="2025-04-13T10:16:17 IST" duration-ms="8306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="YouTubeHomePageandHistoryIconclick()[pri:0, instance:org.testing.testScripts.TC2_YouTubeHomePageandHistoryIconclick@7bc44ce8]" started-at="2025-04-13T10:16:17 IST" name="YouTubeHomePageandHistoryIconclick" finished-at="2025-04-13T10:16:27 IST" duration-ms="10180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTubeHomePageandHistoryIconclick -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC2_YouTubeHomePageandHistoryIconclick@7bc44ce8]" started-at="2025-04-13T10:16:27 IST" name="browserClose" finished-at="2025-04-13T10:16:28 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.testing.testScripts.TC2_YouTubeHomePageandHistoryIconclick -->
+      <class name="org.testing.testScripts.TC3_susbcriptionHyperlinkClick">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC3_susbcriptionHyperlinkClick@23f86d8a]" started-at="2025-04-13T10:16:28 IST" name="browserLaunch" finished-at="2025-04-13T10:16:35 IST" duration-ms="6884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="subscriptionHyperlinkClick()[pri:0, instance:org.testing.testScripts.TC3_susbcriptionHyperlinkClick@23f86d8a]" started-at="2025-04-13T10:16:35 IST" name="subscriptionHyperlinkClick" finished-at="2025-04-13T10:16:35 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscriptionHyperlinkClick -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC3_susbcriptionHyperlinkClick@23f86d8a]" started-at="2025-04-13T10:16:35 IST" name="browserClose" finished-at="2025-04-13T10:16:36 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.testing.testScripts.TC3_susbcriptionHyperlinkClick -->
+      <class name="org.testing.testScripts.TC6_videoPlayComment">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC6_videoPlayComment@9e54c59]" started-at="2025-04-13T10:17:24 IST" name="browserLaunch" finished-at="2025-04-13T10:17:24 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="commentVideo()[pri:0, instance:org.testing.testScripts.TC6_videoPlayComment@9e54c59]" started-at="2025-04-13T10:17:24 IST" name="commentVideo" finished-at="2025-04-13T10:17:59 IST" duration-ms="34307" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.42)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb6da4edbe717e260cdafad4c8c47104, sendKeysToElement {id=f.C2BAFD293F3F36605F2548AD7525EFF6.d.987C2F6B2D0EFCAC08523682995BE889.e.105, value=[Ljava.lang.CharSequence;@64aeaf29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\sjamwal\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57332/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb6da4edbe717e260cdafad4c8c47104)] -> xpath: //yt-formatted-string[contains(text(),'Add a comment...')]]
+Session ID: bb6da4edbe717e260cdafad4c8c47104]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.42)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb6da4edbe717e260cdafad4c8c47104, sendKeysToElement {id=f.C2BAFD293F3F36605F2548AD7525EFF6.d.987C2F6B2D0EFCAC08523682995BE889.e.105, value=[Ljava.lang.CharSequence;@64aeaf29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\sjamwal\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57332/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb6da4edbe717e260cdafad4c8c47104)] -> xpath: //yt-formatted-string[contains(text(),'Add a comment...')]]
+Session ID: bb6da4edbe717e260cdafad4c8c47104
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at org.testing.testScripts.TC6_videoPlayComment.commentVideo(TC6_videoPlayComment.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentVideo -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC6_videoPlayComment@9e54c59]" started-at="2025-04-13T10:17:59 IST" name="browserClose" finished-at="2025-04-13T10:17:59 IST" duration-ms="476" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb6da4edbe717e260cdafad4c8c47104, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\sjamwal\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57332/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb6da4edbe717e260cdafad4c8c47104]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb6da4edbe717e260cdafad4c8c47104, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\sjamwal\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57332/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb6da4edbe717e260cdafad4c8c47104
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at org.testing.Base.Base.browserClose(Base.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.testing.testScripts.TC6_videoPlayComment -->
+      <class name="org.testing.testScripts.TC5_channelSubscribe">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testing.testScripts.TC5_channelSubscribe@30b975ad]" started-at="2025-04-13T10:17:03 IST" name="browserLaunch" finished-at="2025-04-13T10:17:10 IST" duration-ms="7148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="channelSubscribe()[pri:0, instance:org.testing.testScripts.TC5_channelSubscribe@30b975ad]" started-at="2025-04-13T10:17:10 IST" name="channelSubscribe" finished-at="2025-04-13T10:17:23 IST" duration-ms="13068" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements when the selector is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
+at org.openqa.selenium.By$ByCssSelector.<init>(By.java:328)
+at org.openqa.selenium.By.cssSelector(By.java:112)
+at org.testing.testScripts.TC5_channelSubscribe.channelSubscribe(TC5_channelSubscribe.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- channelSubscribe -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.testing.testScripts.TC5_channelSubscribe@30b975ad]" started-at="2025-04-13T10:17:23 IST" name="browserClose" finished-at="2025-04-13T10:17:24 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.testing.testScripts.TC5_channelSubscribe -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

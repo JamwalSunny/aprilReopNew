@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" parallel="tests" name="Test">
     <classes>
-      <class name="org.testing.testScripts.TC1_loginYoutube"/>
+     <class name="org.testing.testScripts.TC1_loginYoutubeTrendingClick"/>
+     <class name="org.testing.testScripts.TC2_YouTubeHomePageandHistoryIconclick"/>
+     <class name="org.testing.testScripts.TC3_susbcriptionHyperlinkClick"/>
+     <class name="org.testing.testScripts.TC4_likeLinkClick"/>
+     <class name="org.testing.testScripts.TC5_channelSubscribe"/>
+     <class name="org.testing.testScripts.TC6_videoPlayComment"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
